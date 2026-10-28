@@ -1,0 +1,21 @@
+name: ETS
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - astropy
+  - ccdproc
+  - skyfield
+  - sgp4
+  - jupyterlab
+  - notebook
+  - pip:
+      - "nbconvert[webpdf]"
